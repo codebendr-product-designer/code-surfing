@@ -12,9 +12,25 @@ struct ContentView: View {
         
         NavigationView {
             
-            VStack {
+            HStack(alignment: .bottom) {
                 
-            
+                VStack(alignment: .leading) {
+                    
+                    Text("A")
+                        .font(.system(size: 40))
+                        .fontWeight(.bold)
+
+                    Capsule()
+                        .frame(width: 35, height: 9)
+                        .offset(x: -2, y: -25)
+                    
+                    Spacer()
+                }
+                .padding(.leading, 30)
+                .padding(.top, 20)
+                
+                Spacer()
+                
             }.navigationBarItems(leading: Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                 Image(systemName: "doc.plaintext")
                     .resizable()
