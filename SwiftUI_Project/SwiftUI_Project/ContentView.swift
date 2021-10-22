@@ -9,7 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+        
+        NavigationView {
+            
+            VStack {
+                
+            
+            }.navigationBarItems(leading: Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Image(systemName: "doc.plaintext")
+                    .resizable()
+                    .offset(x: 10, y: 14)
+                    .frame(width: 22, height: 22, alignment: .leading)
+                    .foregroundColor(Color(.black))
+
+                    
+            }))
+        }.overlay(ZStack {
             Image("icons/image")
                 .resizable()
                 .frame(width: 480, height: 950, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
