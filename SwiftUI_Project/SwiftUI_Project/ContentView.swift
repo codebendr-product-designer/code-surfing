@@ -19,11 +19,15 @@ struct ContentView: View {
                     Text("A")
                         .font(.system(size: 40))
                         .fontWeight(.bold)
-
+                    
                     Capsule()
                         .frame(width: 35, height: 9)
                         .offset(x: -2, y: -25)
                     
+                    Text("Welcome to \nthe new \nAlfa-Bank")
+                        .font(.system(size: 40))
+                        .fontWeight(.regular)
+                        .offset(x: -2, y: 30.0)
                     Spacer()
                 }
                 .padding(.leading, 30)
@@ -44,7 +48,7 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 480, height: 950, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .offset(x: -10, y: 0)
-                .opacity(0.2)
+                .opacity(0.5)
         })
         
     }
