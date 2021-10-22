@@ -37,9 +37,8 @@ struct ContentView: View {
                     .offset(x: 10, y: 14)
                     .frame(width: 22, height: 22, alignment: .leading)
                     .foregroundColor(Color(.black))
-
-                    
             }))
+            
         }.overlay(ZStack {
             Image("icons/image")
                 .resizable()
@@ -47,9 +46,6 @@ struct ContentView: View {
                 .offset(x: -10, y: 0)
                 .opacity(0.2)
         })
-        
-        
-                    
         
     }
     
