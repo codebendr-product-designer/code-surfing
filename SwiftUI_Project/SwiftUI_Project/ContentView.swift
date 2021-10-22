@@ -15,10 +15,13 @@ struct ContentView: View {
                 .frame(width: 480, height: 950, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .offset(x: -10, y: 0)
                 .opacity(0.2)
-            
-                
-        }
+        })
+        
+        
+                    
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
