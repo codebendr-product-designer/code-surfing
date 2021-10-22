@@ -1,11 +1,11 @@
 import XCTest
-@testable import code_surfing
+import CodeSurfing
 
-final class code_surfingTests: XCTestCase {
+final class CodeSurfingTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(code_surfing().text, "Hello, World!")
+        XCTAssertEqual(CodeSurfing().text, "Hello, World!")
     }
 }
